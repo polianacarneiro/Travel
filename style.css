@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Emilys+Candy&family=Fira+Code&family=Righteous&family=Special+Elite&display=swap');
+
+* {
+    margin: 0;
+}
+
+/* corpo da pagina, tudo que estiver aqui vai afetar o que esta na body */
+body {
+    /* posição do texto*/
+    text-align: center;
+    /*preenchimento superior*/
+    padding-top: 160px;
+    /*imagem de fundo da pagina*/
+    background-image: url(https://i.ibb.co/zSXLZfp/background-image.jpg);
+    background-repeat: no-repeat;
+    /* tamanho da imagem de fundo da pagina*/
+    background-size: cover;
+    /* posição da imagem de fundo da pagina*/
+    background-position: center;
+
+    /*altura*/
+    height: 84vh;
+}
+
+h1 {
+    /*cor*/
+    color: black;
+     /*estilo da fonte*/
+    font-style: normal;
+    /*espessura da fonte*/
+    font-weight: 700;
+    /*tamanho da fonte*/
+    font-size: 80px;
+     /*altura da linha*/
+    line-height: 100px;
+    /*tipo de font*/
+    font-family: 'Cinzel', serif;
+}
+
+h1 span {
+     /*cor*/
+    color: #DB2777;
+}
+
+p  {
+    /*estilo da fonte*/
+    font-style: normal;
+    /*espessura da fonte*/
+    font-weight: 400;
+    /*tamanho da fonte*/
+    font-size: 20px;
+    /*altura da linha*/
+    line-height: 24px;
+}
+
+a {
+    color: black;
+    /*alinhamento*/
+    flex-direction: row;
+    /*alinhar itens*/
+    align-items: flex-start;
+    /*preenchimento*/
+    padding: 10px;
+    /*tamanho da fonte*/
+    font-size: 20px;
+    /*espessura da fonte*/
+    font-weight: 700;
+     /*altura da linha*/
+    line-height: 200px;
+    /*retirar a decoração do texto, no caso a sublinhado*/
+    text-decoration: none;
+}
+
+.dvm-circle {
+    margin: 10px;
+    /*fundo do botão*/
+    background-color: #DB2777;
+    /*cor letra*/
+    color:azure;
+    /*tamanho do backgound do botão*/
+    padding: 15px;
+    /*borda mais ou menos arrendondada*/
+    border-radius: 50px;
+    text-decoration: none;
+   
+}
